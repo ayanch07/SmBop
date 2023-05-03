@@ -1,5 +1,16 @@
 # SmBoP: Semi-autoregressive Bottom-up Semantic Parsing 
 
+###Cinfigure:
+* Install anaconda; go to anaconda prompt
+* use: "conda create -n aml python=3.6"
+* conda activate aml
+* conda install git
+* git clone https://github.com/OhadRubin/SmBop
+* pip install torch==1.8.1
+* cd SmBop
+* pip install -r requirements.txt
+* python -c "import nltk; nltk.download('punkt'); nltk.download('stopwords')"
+* pip install --upgrade typer==0.4.0
 
 Author implementation of this [NAACL 2021 paper](https://arxiv.org/abs/2010.12412).
 
